@@ -1,0 +1,23 @@
+package com.yash.oops.concepts;
+
+public class Person {
+	String name;
+	int age;
+	String gender;
+	
+	public Person() {
+		System.out.println("Person Default Constructor");
+	}
+	
+	public Person(String name, int age, String gender) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+	
+	void show() {
+		System.out.println("Person Show");
+	}
+
+}

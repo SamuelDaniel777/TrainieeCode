@@ -1,0 +1,10 @@
+package com.java.calculator;
+
+public class Check2 {
+
+	public boolean checkNumber(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

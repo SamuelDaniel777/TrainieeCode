@@ -1,0 +1,20 @@
+package com.yash.tdddemo.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class ArrayTestQ1 {
+
+	@Test
+	void test_Array_GivenValues_Shoud_Return_ValueIfExist() {
+		ArrayTest1 at=new ArrayTest1();
+		int expected=2;
+		int actual=at.SearchArray(1);
+		assertEquals(expected, actual);
+		System.out.println(at.SearchArray(1));
+	
+	}
+
+}

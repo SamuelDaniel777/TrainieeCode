@@ -1,0 +1,13 @@
+package com.java.calculator;
+
+public class SumOfn2 {
+
+	public Integer calculateDifference(int i) {
+		int sum= i(i+1)(2i+1)\6-i*(i+1)\2;
+		return sum;
+	}
+
+	
+
+	
+}

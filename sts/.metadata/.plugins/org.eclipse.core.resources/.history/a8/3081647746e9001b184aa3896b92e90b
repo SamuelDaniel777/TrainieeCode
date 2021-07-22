@@ -1,0 +1,13 @@
+package com.yash.oops.inputreader;
+
+import java.util.Scanner;
+
+public class InputUsingScanner {
+	public static void main(String []args) {
+		String input;
+		System.out.println("Please Enter Your Name");
+		Scanner sc = new Scanner(System.in);
+		input= sc.next();
+		System.out.println(input);
+	}
+}

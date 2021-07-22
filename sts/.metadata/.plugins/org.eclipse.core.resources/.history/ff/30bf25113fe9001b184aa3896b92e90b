@@ -1,0 +1,10 @@
+package com.yash.oops.concept2;
+
+public class DogAppRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

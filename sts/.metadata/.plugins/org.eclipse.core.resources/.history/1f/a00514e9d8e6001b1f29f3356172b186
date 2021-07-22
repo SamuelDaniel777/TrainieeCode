@@ -1,0 +1,15 @@
+package com.yash.tdddemo.util;
+
+import java.util.Iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayTest at=new ArrayTest();
+		
+		System.out.println(at.SearchArray(1));
+	
+	}
+
+}

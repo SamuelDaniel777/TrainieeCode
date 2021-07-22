@@ -1,0 +1,19 @@
+package com.java.calculator.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+
+class SumOfnTest {
+	
+	@BeforeClass
+	void beforeClass(){
+		SumOfn son=new SumOfn();
+	}
+	@Test
+	void test() {
+		
+	}
+
+}

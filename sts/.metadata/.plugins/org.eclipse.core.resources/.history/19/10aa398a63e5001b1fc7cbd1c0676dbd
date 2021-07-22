@@ -1,0 +1,25 @@
+package com.java.calculator.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import com.java.calculator.SumOfn;
+
+class SumOfnTest {
+	SumOfn son;
+	@BeforeClass
+	void beforeClass(){
+	son=new SumOfn();
+
+	}
+	@Test
+	void test_SumOfn_GivenSingleDigit_Should_ReturnAddSumofNumbers() {
+		Assertions.assertEquals(son.calculateSum(10), 33);
+	}
+	
+	
+
+}

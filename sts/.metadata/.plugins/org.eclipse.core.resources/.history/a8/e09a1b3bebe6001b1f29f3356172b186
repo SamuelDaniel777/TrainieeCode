@@ -1,0 +1,15 @@
+package com.yash.tdddemo.array;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ArrayTest2 {
+	
+	Array2 at1=new Array2();
+	@Test
+	void test_ArrayTest() {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.java.calculator;
+
+public class SumOfn2 {
+
+	public Double calculateDifference(int i) {
+		double sum = i*(i+1)*(2*i+1)/6;
+		return sum;
+	}
+
+	
+
+	
+}

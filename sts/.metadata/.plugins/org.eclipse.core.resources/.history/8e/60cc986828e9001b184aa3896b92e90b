@@ -1,0 +1,37 @@
+package com.yash.oops.concepts1;
+
+public class Employee extends Person{
+		Double salary;
+		int empId;
+		
+		
+		public Employee(String name, int age, Double salary, int empId) {
+			super(name, age);
+			this.salary = salary;
+			this.empId = empId;
+		}
+
+
+		@Override
+		public String toString() {
+			
+			return "Employee [salary=" + salary + ", empId=" + empId + "]";
+		}
+
+
+		public void setSalary(Double salary) {
+			this.salary = salary;
+		}
+
+
+		public void setEmpId(int empId) {
+			this.empId = empId;
+		}
+		void display() {
+			System.out.println("Name"+name+"Salary"+salary+"empId"+empId);
+		}
+		
+		
+		
+		
+}

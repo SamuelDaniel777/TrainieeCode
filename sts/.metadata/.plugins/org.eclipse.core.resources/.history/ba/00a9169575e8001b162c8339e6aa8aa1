@@ -1,0 +1,20 @@
+package com.yash.regexdemo.buildhouse;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class DuplicateValues {
+	public static void main(String[] args) {
+		int count=0;
+		String[] inpuString={"tea"};
+		String[] arg= {"juice","tea","coffee"};
+		for(int i =0;i<arg.length;i++) {
+			if (arg.equals(inpuString)) {
+				count++;
+			} else {
+				System.out.println("No Match");
+			}
+			
+		}
+	}
+}

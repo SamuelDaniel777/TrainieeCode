@@ -1,0 +1,19 @@
+package com.java.calculator.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+
+class SumOfN {
+	
+	@BeforeClass
+	void beforeClass(){
+		SumOfN son=new SumOfN();
+	}
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

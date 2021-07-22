@@ -1,0 +1,10 @@
+package com.java.calculator;
+
+public class SumOfn {
+
+	public Integer calculateSum(int n) {
+		// TODO Auto-generated method stub
+		return 1;
+	}
+
+}

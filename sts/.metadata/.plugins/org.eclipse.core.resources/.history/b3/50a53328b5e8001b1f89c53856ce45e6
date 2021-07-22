@@ -1,0 +1,18 @@
+package com.yash.oops.concepts;
+class Demo{
+	int a;
+	int b;
+	public void test() {
+		System.out.println("Ecapsulation Example");
+	}
+	
+}
+
+public class Ecapsultation {
+	public static void main() {
+		Demo d= new Demo();
+		d.test();
+		
+	}
+	
+}

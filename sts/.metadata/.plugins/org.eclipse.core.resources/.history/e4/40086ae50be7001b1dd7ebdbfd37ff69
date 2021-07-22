@@ -1,0 +1,21 @@
+package com.yash.tdddemo.array;
+
+import java.util.Iterator;
+
+public class Array4 {
+
+	public void reverseString(String string) {
+		
+		char[] actualString= string.toCharArray();
+		int actualStringSize=actualString.length;
+		char[] reverseStringArray=new char[actualStringSize];
+		
+		for(int i=0;i<actualStringSize;i++) {
+			reverseStringArray[actualStringSize-1]=actualString[i];
+			actualStringSize-=1;
+		}
+		System.out.println(new String(reverseStringArray));
+	}
+	
+
+}

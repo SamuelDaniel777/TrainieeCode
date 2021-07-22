@@ -1,0 +1,22 @@
+package com.java.calculator;
+
+import java.util.Scanner;
+
+public class Check {
+
+	public boolean checkNumber(String string) {
+		int input= Integer.parseInt(string);
+		int current=0;
+		int prev=0;		
+		do {
+			System.out.println("Enter a value");
+			Scanner sc=new Scanner(System.in);
+			  =sc.nextInt();
+			
+		} while(condition);
+		
+	}
+
+	
+	
+}

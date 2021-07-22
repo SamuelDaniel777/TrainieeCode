@@ -1,0 +1,11 @@
+package com.yash.oops.concept2;
+
+public class Labrador extends Dog {
+	
+	String name;
+	String food;
+	String colour;
+	void speak() {
+		System.out.println("Labrador");
+	}
+}

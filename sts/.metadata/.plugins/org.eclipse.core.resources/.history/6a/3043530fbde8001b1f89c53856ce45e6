@@ -1,0 +1,22 @@
+package com.yash.oops.concepts;
+
+public class Student extends Person{
+	
+	
+	int rollNo;
+	double marks;
+	String hobby;
+	
+	public Student(String name, int age, String gender, int rollNo, double marks, String hobby) {
+		super(name, age, gender);
+		this.rollNo = rollNo;
+		this.marks = marks;
+		this.hobby = hobby;
+	}
+	void printDetails() {
+		System.out.println("name"+name+"age"+age+"gender"+rollNo+"marks"+hobby);
+	}
+	
+	
+
+}

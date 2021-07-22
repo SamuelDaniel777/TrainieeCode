@@ -1,0 +1,17 @@
+package com.yash.regexdemo.patternmatching;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.yash.regexdemo.PatternMatching;
+
+class PatternMatchingTest {
+	
+	PatternMatching pm=new PatternMatching();
+	@Test
+	void test() {
+		
+	}
+
+}

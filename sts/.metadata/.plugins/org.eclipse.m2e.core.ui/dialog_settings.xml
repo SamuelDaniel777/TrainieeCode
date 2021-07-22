@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\demoapp4"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\tdddemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\junittesting"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\demoapp4\src\com\demo\test1\StsTest1.java"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\Calculator"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\Calculator\src\com\java\calculator\test\Test_StringCalculator.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.yash.oops"/>
+			<item value="com.yash.regexdemo"/>
+			<item value="com.yash.javatest"/>
+			<item value="com.yash.tdddemo"/>
+		</list>
+		<list key="groupId">
+			<item value="com.yash"/>
+		</list>
+		<list key="artifactId">
+			<item value="oops"/>
+			<item value="regexdemo"/>
+			<item value="javatest"/>
+			<item value="tdddemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

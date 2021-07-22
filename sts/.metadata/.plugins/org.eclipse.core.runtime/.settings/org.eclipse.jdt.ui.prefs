@@ -1,0 +1,19 @@
+content_assist_autoactivation_delay=20
+content_assist_autoactivation_triggers_java=._@abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_disable_completion_trigger_chars=true
+content_assist_guess_method_arguments=true
+content_assist_insert_completion=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.demo.test.StringDemo"><rhs name\="com.demo.test.StringDemo"/></lhs><lhs name\="com.demo.test.Employee"><rhs name\="com.demo.test.Employee"/></lhs><lhs name\="com.demo.test.NumberToStringClass"><rhs name\="com.demo.test.NumberToStringClass"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.Integer"/><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.Integer"/><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.Number"><rhs name\="java.lang.Integer"/></lhs><lhs name\="com.java.calculator.test.SumOfN"><rhs name\="com.java.calculator.test.SumOfN"/></lhs><lhs name\="com.java.calculator.test.SumOfnTest"><rhs name\="com.java.calculator.test.SumOfnTest"/></lhs><lhs name\="com.java.calculator.SumOfn2"><rhs name\="com.java.calculator.SumOfn2"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="com.java.calculator.Check"><rhs name\="com.java.calculator.Check"/></lhs><lhs name\="com.yash.tdddemo.util.ArrayTest"><rhs name\="com.yash.tdddemo.util.ArrayTest"/></lhs><lhs name\="com.yash.tdddemo.array.Array2"><rhs name\="com.yash.tdddemo.array.Array2"/></lhs><lhs name\="com.yash.tdddemo.array.Array3"><rhs name\="com.yash.tdddemo.array.Array3"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/><rhs name\="java.lang.StringBuilder"/><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="com.yash.regexdemo.buildhouse.BuildHouse"><rhs name\="com.yash.regexdemo.buildhouse.BuildHouse"/></lhs><lhs name\="com.yash.oops.concepts.Person"><rhs name\="com.yash.oops.concepts.Student"/></lhs><lhs name\="com.yash.oops.concepts.Student"><rhs name\="com.yash.oops.concepts.Student"/></lhs></history>
+content_assist_number_of_computers=15
+eclipse.preferences.version=1
+hoverModifierMasks=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.lsp4e.jdt.hoverprovider;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;327680;org.eclipse.jdt.ui.JavadocHover;393216;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
+hoverModifiers=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;\!0;org.eclipse.lsp4e.jdt.hoverprovider;\!0;org.eclipse.jdt.ui.ProblemHover;\!0;org.eclipse.jdt.ui.NLSStringHover;Ctrl+Alt;org.eclipse.jdt.ui.JavadocHover;\!Ctrl+Shift;org.eclipse.jdt.ui.AnnotationHover;\!0;org.eclipse.jdt.ui.JavaSourceHover;Shift;
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=20
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.overrideannotation=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

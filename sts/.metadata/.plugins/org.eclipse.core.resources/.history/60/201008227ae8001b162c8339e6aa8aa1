@@ -1,0 +1,24 @@
+package com.yash.regexdemo.buildhouse;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import com.yash.regexdemo.test.RegEx;
+
+public class DuplicateValues {
+	public static void main(String[] args) {
+		int count=0;
+		String inpuString="teadf";
+		String arg= "juiceteacoffee";
+		Pattern p=Pattern.compile(arg);
+		Matcher m = p.matcher(inpuString);
+		Regex ex = new RegEx();
+			boolean b=false;
+			System.out.println(m.find());
+		
+			
+		
+			
+		
+	}
+}

@@ -1,0 +1,18 @@
+package com.yash.tdddemo.array;
+
+import java.util.Iterator;
+
+public class Array3 {
+
+	public int[] reverseIt(int[] inputArray)
+	{
+		int[] reverseArray=null;
+		for(int i=inputArray.length;i>0;++i) {
+			for(int j=0;j<inputArray.length;j++) {
+				reverseArray[j]=inputArray[i];
+			}
+		}
+		return reverseArray;
+	}
+	
+}
