@@ -1,8 +1,0 @@
-package com.yash.oops.concepts;
-
-public class AbstractDefDemo extends AbstractDemo{
-	void demofun1() {
-		System.out.println("demo fun1 called");
-	}
-	System.out.println("Abstract Demo Called ");
-}

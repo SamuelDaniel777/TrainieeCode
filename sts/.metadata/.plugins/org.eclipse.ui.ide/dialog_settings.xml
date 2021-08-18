@@ -6,8 +6,8 @@
 		<item value="org.eclipse.buildship:3.1.4.v20200326-1743"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.10.0.202012080955-r"/>
 		<item value="org.eclipse.egit:5.10.0.202012080955-r"/>
-		<item value="org.eclipse.emf.common:2.21.0.v20200917-1439"/>
-		<item value="org.eclipse.emf.ecore:2.23.0.v20200630-0516"/>
+		<item value="org.eclipse.emf.common:2.22.0.v20210319-0732"/>
+		<item value="org.eclipse.emf.ecore:2.24.0.v20210405-0628"/>
 		<item value="org.eclipse.epp.mpc:1.9.0.v20201125-0811"/>
 		<item value="org.eclipse.help:2.3.400.v20201202-1800"/>
 		<item value="org.eclipse.jdt:3.18.600.v20201202-1800"/>
@@ -19,7 +19,7 @@
 		<item value="org.eclipse.jgit:5.10.0.202012080955-r"/>
 		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.13.1.v202007161535"/>
 		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:15.0.1.v20201027-0507"/>
-		<item value="org.eclipse.m2e.feature:1.17.1.20201207-1112"/>
+		<item value="org.eclipse.m2e.feature:1.18.1.20210618-2246"/>
 		<item value="org.eclipse.m2e.logback.feature:1.17.0.20200924-1339"/>
 		<item value="org.eclipse.m2e.wtp.feature:1.4.4.20201128-1705"/>
 		<item value="org.eclipse.m2e.wtp.jaxrs.feature:1.4.4.20201128-1705"/>
@@ -44,5 +44,11 @@
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
 	</list>
 	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 	</section>
 </section>

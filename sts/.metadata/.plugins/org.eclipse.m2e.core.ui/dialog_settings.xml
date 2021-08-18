@@ -2,12 +2,21 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\carproblem"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\employeeapp\src\com\yash\employeeapp\serviceimp\RemoveData.java"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\arraydemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\productcartapp\src\main\java\com\yash\productcartapp\sync\ProductAppSync.java"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\multithreadingdemo\src\multithreadingdemo\productApp"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\collectiondemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\collectiondemo\src\main\java\com\yash\collectiondemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\debuggingdemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\serializationdemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\regexdemo"/>
+			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\tdddemo\src\main\java\com\yash\tdddemo\array\Array5.java"/>
 			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\demoapp4"/>
 			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\tdddemo"/>
 			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\junittesting"/>
 			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\demoapp4\src\com\demo\test1\StsTest1.java"/>
-			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\Calculator"/>
-			<item value="C:\Users\benny\Desktop\yash training\Trainee Code\sts\Calculator\src\com\java\calculator\test\Test_StringCalculator.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -31,19 +40,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.yash.oops"/>
-			<item value="com.yash.regexdemo"/>
-			<item value="com.yash.javatest"/>
-			<item value="com.yash.tdddemo"/>
+			<item value="com.yash.ems"/>
+			<item value="com.yash.carproblem"/>
+			<item value="com.yash.java8feautres"/>
 		</list>
 		<list key="groupId">
 			<item value="com.yash"/>
 		</list>
 		<list key="artifactId">
-			<item value="oops"/>
-			<item value="regexdemo"/>
-			<item value="javatest"/>
-			<item value="tdddemo"/>
+			<item value="ems"/>
+			<item value="carproblem"/>
+			<item value="java8feautres"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -54,6 +61,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="1.0.0-SNAPSHOT"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
@@ -79,5 +87,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

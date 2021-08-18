@@ -14,27 +14,29 @@ public class PatternMatching6 {
 		String gs="\"I have a cat, but I like my dog more. I also \r\n"
 				+ "have a horse";
 	
-		Pattern p1 = Pattern.compile("\\s");
+		Pattern p1 = Pattern.compile("cat dog horse");
 		String[] str=p1.split(gs);
 		Matcher m1=p1.matcher(gs);
-		for (int i = 0; i < str.length; i++) {
+		
+		
+//		for (int i = 0; i < str.length; i++) {
 //			System.out.println(str[i]);
-			
-			if (str[i]=="cat,") {
-				System.out.print("Hello");
-			}
-		}
-		
-		
-		
-		
-//		while (m1.find()) {
 //			
-//			System.out.print(m1.group());
 //			
+//			System.out.print("");
+//			}
 //		}
 		
 		
+		
+		
+		while (m1.find()) {
+			
+			System.out.print(m1.group());
+			
+		}
+		
+		
 	}
-
 }
+

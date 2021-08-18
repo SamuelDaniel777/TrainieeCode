@@ -1,0 +1,12 @@
+.bg1{
+    background-color: aqua;
+}
+.tc{
+    color: white;
+}
+.bg2{
+    background-color: gainsboro;
+}
+#images{
+    background-image: url('media/1.jpg');
+}

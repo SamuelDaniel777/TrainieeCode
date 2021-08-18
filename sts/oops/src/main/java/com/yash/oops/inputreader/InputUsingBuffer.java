@@ -10,7 +10,7 @@ public class InputUsingBuffer {
 		
 		System.out.print("Enter Number ");
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		String i = br.readLine();
+		int i = Integer.parseInt(br.readLine());
 		System.out.println(i);
 		
 	}

@@ -1,7 +1,0 @@
-package com.yash.regexdemo.util;
-
-import org.junit.jupiter.api.Test;
-
-public class DemoTest {
-	
-}

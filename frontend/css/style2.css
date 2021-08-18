@@ -1,0 +1,77 @@
+#image{
+    background-image: url(media/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: content-box;
+}
+.bg1{
+
+    background-color: aqua;
+}
+
+.body{
+    background-image: url(media/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: content-box;
+    
+}
+
+#model{
+
+    width: 100px;
+    background-color: blue;
+    padding: 30px;
+    border: 40px solid green;
+    margin: 70px ;
+    outline-style: dashed;
+    outline-color: blueviolet;
+    outline-width: 40px;
+
+}
+
+#table{
+   border-color: yellow;
+   width: 50%;
+   height: 70%;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 50px;
+   outline-style: dashed;
+
+}
+#tableheight{
+    height: 70px;
+}
+
+#colour1{
+    color: blanchedalmond;
+}
+
+#colour2{
+    color: blue;
+}
+
+#colour3{
+    color: blueviolet;
+}
+#aligntext{
+    text-align: center;
+}
+#textdecoration{
+    text-decoration: line-through;
+}
+
+#textshadow{
+    text-shadow: 2px 2px royalblue;
+}
+
+#textwarpping{
+    word-wrap: normal;
+}
+
+#border{
+    border: 10px solid black;
+}
