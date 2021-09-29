@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<context-param>
+	<param-name>p5</param-name>
+	<param-value>9999</param-value>
+</context-param>
+
+<servlet>
+	<servlet-name>demo</servlet-name>
+	<servlet-class>demoapp.DemoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>demo</servlet-name>
+	<url-pattern>/demorun</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>random</servlet-name>
+	<servlet-class>demoapp.RandomDemo</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>random</servlet-name>
+	<url-pattern>/random</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>randomtable</servlet-name>
+	<servlet-class>demoapp.RandomTable</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>randomtable</servlet-name>
+	<url-pattern>/randomtable</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ctxdemo</servlet-name>
+	<servlet-class>demoapp.DateAndTime</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ctxdemo</servlet-name>
+	<url-pattern>/ctxprint</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>add</servlet-name>
+	<servlet-class>demoapp.Add</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>add</servlet-name>
+	<url-pattern>/addNumber</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>sqserv</servlet-name>
+	<servlet-class>demoapp.SqServletReqDisp</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>sqserv</servlet-name>
+	<url-pattern>/sq</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>One</servlet-name>
+	<servlet-class>demoapp.One</servlet-class>
+	<init-param>
+		<param-name>p1</param-name>
+		<param-value>1234</param-value>
+	</init-param>
+	<init-param>
+		<param-name>p2</param-name>
+		<param-value>12345</param-value>
+	</init-param>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>One</servlet-name>
+	<url-pattern>/One</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Two</servlet-name>
+	<servlet-class>demoapp.Two</servlet-class>
+	<init-param>
+		<param-name>p3</param-name>
+		<param-value>123456</param-value>
+	</init-param>
+	<init-param>
+		<param-name>p4</param-name>
+		<param-value>1234567</param-value>
+	</init-param>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Two</servlet-name>
+	<url-pattern>/Two</url-pattern>
+</servlet-mapping>
+
+<context-param>
+	<param-name>Fruit</param-name>
+	<param-value>Apple</param-value>
+</context-param>
+</web-app>

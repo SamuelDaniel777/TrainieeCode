@@ -1,9 +1,11 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1624986146000
-configurationInstallLocation=/E\:/sts-4.9.0.RELEASE/
+configurationInstallLocation=/E\:/sts-4.11.1.RELEASE/
+ct.upsell.display.after=1631740472305
 eclipse.preferences.version=1
 iconcolormode=primary
-last.download.attempt.time=1629198874934
-lastConfiguration=1629198853131
-newinstall=true
+last.download.attempt.time=1632830347887
+lastConfiguration=1632830318077
+newinstall=false
+showWelcomeDialog=false
 workbench.theme=Dark Gray

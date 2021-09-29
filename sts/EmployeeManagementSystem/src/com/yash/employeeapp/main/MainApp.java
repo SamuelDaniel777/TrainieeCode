@@ -58,10 +58,9 @@ public class MainApp {
 			throw new InvalidEntry("Invalid Value Entered Please Enter 1,2,3,4 or 5");
 			
 		}
-		
 	}
 	public static void main(String[] args) throws NumberFormatException, IOException, ClassNotFoundException {
-		
+
 		mainMenu();
 		
 	}

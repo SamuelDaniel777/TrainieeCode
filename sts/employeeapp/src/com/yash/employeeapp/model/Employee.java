@@ -18,7 +18,7 @@ public class Employee implements Comparable<Employee>,Serializable {
 	public Employee() {
 	}
 	
-
+	
 	public Employee(Integer empId, String empName, String location, long phoneNumber, String department,
 			double salary) {
 		super();

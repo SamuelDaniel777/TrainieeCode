@@ -6,17 +6,18 @@ import org.apache.log4j.PropertyConfigurator;
 
 public class Log4jDemo {
 	
-//	public static void sub() {
-//		System.out.println(10/0);
-//	}
 	
 	public static void main(String[] args) {
 		Logger logger= Logger.getLogger(Log4jDemo.class); 
 		PropertyConfigurator.configure("log.properties");
+		logger.trace("trace");
 		logger.debug("debug");
+		logger.info("Info message");
 		logger.warn("warn");
+		logger.error("error");
 		logger.fatal("fatal");
-//		sub();
+		logger.fatal("fatal error");
+
 	}
 
 }
