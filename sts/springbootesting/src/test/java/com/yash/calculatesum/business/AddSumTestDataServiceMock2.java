@@ -24,7 +24,7 @@ class AddSumTestDataServiceMock2 {
 	DaoDataService daoDataService;
 
 	@Test
-	void test_forMultipleValueUsingDaoDataService() {
+	void test_forMultipeValueUsingDaoDataService() {
 		when(daoDataService.getData()).thenReturn(new int[] {1,2,3});
 		assertEquals(6, as.calculateSumUsingDataService());
 		
