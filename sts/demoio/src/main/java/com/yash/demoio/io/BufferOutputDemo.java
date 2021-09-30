@@ -13,7 +13,7 @@ public class BufferOutputDemo {
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
 		byte[] b = message.getBytes();
 		bos.write(b);
-		
+		System.out.println("hello");
 	}
 
 }
